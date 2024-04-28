@@ -94,7 +94,7 @@ main {
 /* Background Image for entire Page */
 .img {
     /* image */
-    background-image: url("../img/infoimg.jpg");
+    background-image: url("/img/infoimg.jpg");
 
     /* height for page */
     height: 100%;
