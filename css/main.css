@@ -59,7 +59,7 @@ nav ul {
 /* Home Page CSS */
 
 .home_background {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background.jpg') no-repeat center ;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://raw.githubusercontent.com/jkalter24/Rights2Repair/main/img/background.jpg') no-repeat center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
