@@ -128,7 +128,22 @@
         <div class="finalize">
             <p>"Would you buy a car if it was illegal to replace the tires?"</p>
             <h4>Join Our Fight</h4>
-            <button>Our Newsletter</button>
+            <form name="submit-to-google-sheet">
+                <input name="email" type="email" placeholder="Email" required>
+                <button type="submit">Send</button>
+              </form>
+              
+              <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwPid-ZT31rcn5lov-SRi28f7oQckl--wQF6H3QWvl2gecTYdHfUNBYMtaogTkwiOus-Q/exec'
+                const form = document.forms['submit-to-google-sheet']
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
         </div>
 
         <div class="clearFix"></div>
