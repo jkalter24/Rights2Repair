@@ -48,10 +48,12 @@
         <div class="clearFix"></div>
 
     </div> 
+        <!-- Main Video Player Box -->
     <div class="video-player">
         <iframe width="640" height="480" src="https://www.youtube.com/embed/nvVafMi0l68?si=aednZNIs0OR5judg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
-    
+        <!-- Video Selector via images -->
+
     <div class="video-thumbnails">
         <img src="/img/LTT.jpg" data-video-src="nvVafMi0l68?si=aednZNIs0OR5judg">
         <img src="/img/MK.jpg" data-video-src="RTbrXiIzUt4?si=vmYxqx75Xq3BC7x4">
@@ -59,6 +61,7 @@
     </div>
             
 </div>
+    <!-- JS script to help with the loading of videos via the youtube Video ID -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         document.querySelectorAll('.video-thumbnails img').forEach(img => {
