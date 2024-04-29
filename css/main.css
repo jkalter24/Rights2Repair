@@ -333,6 +333,7 @@ footer p {
 }
 /* End of Footer CSS */
 
+/* Start css for the video player */
 .video-player {
     width: 100%;
     display: flex;
@@ -363,9 +364,10 @@ footer p {
     cursor: pointer;
     border: 2px solid white;
     border-radius: 4px;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px #A63534;
     margin-top: 20px; /* Adjust the margin-top for better spacing between the thumbnails */
   }
+/* End css for the video player */
 
   .text-boxes {
     display: flex;
@@ -400,3 +402,81 @@ footer p {
   .text-box a:hover {
     text-decoration: underline;
   }
+
+  /* contact page css */
+  .contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    color: #A63534;
+    font-size: 40px;
+}
+
+.contact-left-title hr{
+    border: none !important;
+    width: 120px !important;
+    height: 5px !important;
+    background-color: #0000FF;
+    border-radius: 10px !important;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px !important;
+    border: none;
+    outline: none !important;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #0000FF;
+    border-radius: 50px !important;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px !important;
+}
+
+.contact-input:focus{
+    border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder{
+    font-weight: 500;
+    color: #a9a9a9;
+}
+
+.contact-left button{
+  display: flex !important;
+  align-items: center !important;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg,#ff994f,#fa6d86);
+  cursor: pointer;
+}
+
+.contact-left button img{
+    height: 15px;
+}
+
+.contact-right img{
+    width: 500px;
+}
+/* end of contact page css */

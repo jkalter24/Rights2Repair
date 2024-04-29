@@ -1,0 +1,5 @@
+/*This is just for the color since I did global background color single css */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(#ffdad5,#fff7f9);
+}

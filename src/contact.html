@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <title>How-To - Right To Repair</title>
+    <title>Joseph Kalter - Right To Repair</title>
     <script src="../js/main.js"></script>
 </head>
 
@@ -46,114 +47,27 @@
     </header>
 
     <main>
-        <div class="howTo_Title">
-            <h2 class = "howto_same">Our Repair Guides</h2>
-            <div class="howTo_TitleButton howto_same">
-                <button class ="howTo_learn">Learn More</button>
-                <button class = "howTo_create">Create A Guide</button>
-            </div>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="b59fe43c-57d6-4294-9ed9-a78b0617a81e">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="text" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src="/img/arrow_icon.png" alt=""></button>
 
-            <div class="clearFix"></div>
-            <hr>
-
-            <h5>Choose your section of repair!</h5>
-        </div>
-
-        <div class="overArchingGrid">
-
-            <div id="howTo_grid" class = "phone first">
-                <a href = "howto_phone.html">
-                    <div id="phone" class = "howTo_grid_box">
-                        <figure>
-                            <img />
-                        </figure>
-                        <h5>Phones</h5>
-                    </div>
-                </a>
-            </div>
-
-            <div id="howTo_grid" class = "android first">
-                <a href = "">
-                    <div id="android" class = "howTo_grid_box">
-                        <figure>
-                            <img />
-                        </figure>
-                        <h5>Android</h5>
-                    </div>
-                </a>
-            </div>
-    
-            <div id="howTo_grid" class = "pc first">
-                <a href = "./screen.html">
-                    <div id="pc" class = "howTo_grid_box">
-                        <figure>
-                            <img />
-                        </figure>
-                        <h5>PC</h5>
-                    </div>
-                </a>
-            </div>
-    
-            <div id="howTo_grid" class = "laptop second">
-                <a href = "./screen.html">
-                    <div id="laptop" class = "howTo_grid_box">
-                        <figure>
-                            <img />
-                        </figure>
-                        <h5>Laptops</h5>
-                    </div>
-                </a>
-            </div>
-    
-            <div id="howTo_grid" class = "gameConsole second">
-                
-                <a href = "./screen.html">
-                    <div id="gameConsole" class = "howTo_grid_box">
-                        <figure>
-                            <img />
-                        </figure>
-                        <h5>Game Consoles</h5>
-                    </div>
-                </a>
-            </div>
-    
-            <div id="howTo_grid" class = "tablet second">
-                <a href = "./screen.html">
-                    <div id="tablet" class = "howTo_grid_box">
-                        <figure>
-                            <img />
-                        </figure>
-                        <h5>Tablets</h5>
-                    </div>
-                </a>
-            </div>
-
-            <div id="howTo_grid" class = "printer second">
-                <a href = "./screen.html">
-                    <div id="printer" class = "howTo_grid_box">
-                        <figure>
-                            <img />
-                        </figure>
-                        <h5>Printers</h5>
-                    </div>
-                </a>
-            </div>
-
-            <div id="howTo_grid" class = "camera second">
-                <a href = "./screen.html">
-                    <div id="camera" class = "howTo_grid_box">
-                        <figure>
-                            <img />
-                        </figure>
-                        <h5>Cameras</h5>
-                    </div>
-                </a>
+            </form>
+            <div class="contact-right">
+                <img src="/img/right_img.png" alt="">
             </div>
         </div>
 
     </main>
     <footer>
-        <p>&copy; 2021 Repair</p>
+        <p>&copy; 2024 Joseph Kalter</p>
     </footer>
     <script src="../js/main.js"></script>
 </body>
