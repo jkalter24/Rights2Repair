@@ -1,4 +1,4 @@
-# Project Title
+# Joseph Kalter - Right To Repair Software Engineering Project
 
 ## Description
 
