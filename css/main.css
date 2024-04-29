@@ -287,8 +287,6 @@ button:hover {
 
 /* End of Home Page CSS */
 
-/* Start of Community CSS */
-
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
@@ -302,7 +300,7 @@ button:hover {
     transition: 0.4s;
 }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Add a background color to the button if it is clicked on , and when you move the mouse over it (hover) */
 .accordion:hover {
     background-color: #ccc;
 }
@@ -367,6 +365,13 @@ footer p {
     box-shadow: 0 0 10px #A63534;
     margin-top: 20px; /* Adjust the margin-top for better spacing between the thumbnails */
   }
+
+  .communityH1 {
+    text-align: center;
+    color: #004080;
+    font-weight: bold !important;
+  }
+  
 /* End css for the video player */
 
 /* articles text box */
@@ -486,12 +491,3 @@ footer p {
     width: 500px;
 }
 /* end of contact page css */
-
-.communityH1 {
-    text-align: center;
-    color: #004080;
-    font-weight: bold !important;
-  }
-  
-  
-  
