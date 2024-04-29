@@ -133,7 +133,7 @@
                 <input name="email" type="email" placeholder="Email" required>
                 <input name="firstName" type="text" placeholder="First Name">
                 <input name="lastName" type="text" placeholder="Last Name">
-                <button type="submit">Send</button>
+                <button type="submit" onclick="clearFields()">Send</button>
               </form>
                   <!-- Subscription box code -->
 
@@ -148,6 +148,14 @@
                     .catch(error => console.error('Error!', error.message))
                 })
               </script>
+            <script>
+function clearFields() {
+    document.getElementById('firstName').value = '';
+    document.getElementById('lastName').value = '';
+    document.getElementById('email').value = '';
+}
+</script>
+
         </div>
 
         <div class="clearFix"></div>
