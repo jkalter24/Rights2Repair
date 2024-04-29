@@ -19,6 +19,6 @@ General Usage License
 
 Attributes to the following Youtube channels for their thumbnail
 
-* [MKBHD:](https://www.youtube.com/user/marquesbrownlee)
-* [LTT:](https://www.youtube.com/@LinusTechTips)
-* [iFixit:](https://www.youtube.com/channel/UCHbx9IUW7eCeJsC4sBCTNBA)
+* [MKBHD](https://www.youtube.com/user/marquesbrownlee)
+* [LTT](https://www.youtube.com/@LinusTechTips)
+* [iFixit](https://www.youtube.com/channel/UCHbx9IUW7eCeJsC4sBCTNBA)
