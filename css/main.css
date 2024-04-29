@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+:root {
+    --secondary: #ad9d7d;
+    --background: #ffffff8a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: var(--background);
+}
+
+main {
+    background-color: var(--background);
+}
+
+.clearFix {
+    clear: both;
+}
+
+.fade {
+    opacity: 1;
+}
+
+/* Nav CSS */
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+nav {
+    padding: 10px !important;
+}
+
+nav a {
+    color: #FFF !important;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul {
+    margin-top: 10px;
+}
+
+.guideChunk a, .repairCafeChunk a, .communityChunk a {
+    text-decoration: none;
+}
+/* End of Nav CSS */
+
+/* Home Page CSS */
+
+.home_background {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background.jpg') no-repeat center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 465px;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered h1 {
+    margin-bottom: 5%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.background p {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 100 !important;
+    letter-spacing: 2px;
+}
+
+.homeInfo {
+    margin: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.homeInfo .homeInfoName { 
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.theThree {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.theThree .repairCafe {
+    width: 33%;
+    float: left;
+}
+
+.theThree .members {
+    width: 33%;
+    float: left;
+}
+
+.theThree .guides {
+    width: 33%;
+    float: right;
+}
+
+.theThree .value {
+    font-size: 30px;
+    color: var(--secondary);
+}
+
+/* Chunk Section */
+#presentGuides {
+    overflow: auto;
+    margin: 5%;
+}
+
+#presentRepairCafe {
+    overflow: auto;
+    margin: 5%;
+}
+
+#presentCommunity {
+    overflow: auto;
+    margin: 5%;
+}
+
+.chunkR {
+    width: 50%;
+    float: right;
+    padding: 2.5%;
+}
+
+.chunkL {
+    width: 50%;
+    background-color: var(--secondary);
+    float: left;
+    padding: 2.5%
+}
+
+.chunkR button {
+    background-color: var(--secondary);
+    border: none;
+    padding: 5px 10px;
+    transition-duration: 0.4s;
+    color: #FFF;
+}
+
+.chunkL button {
+    background-color: #FFF ;
+    border: none;
+    padding: 5px 10px;
+    transition-duration: 0.4s;
+    color: var(--secondary);
+}
+
+.chunkR h2 {
+    color: var(--secondary);
+}
+
+.chunkL h2 {
+    color: #FFF;
+}
+
+.chunkL p {
+    color: rgba(219, 217, 217, 0.819);
+}
+
+.guideImg img {
+    width: 100%;
+    height: auto;
+}
+
+.repairCafeImg img {
+    width: 100%;
+    height: auto;
+}
+
+.communityImg img {
+    width: 100%;
+    height: auto;
+}
+
+.guideImg {
+    float: left;
+    width: 50%;
+    padding: 2.5%;
+}
+
+.repairCafeImg {
+    float: right;
+    width: 50%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.communityImg {
+    float: left;
+    width: 50%;
+    padding: 2.5%;
+}
+
+.moreInfo {
+    text-align: center;
+}
+
+.moreInfo h3 {
+    margin-bottom: 15px;
+}
+
+.moreInfo p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.moreInfoBlock {
+    width: 33%;
+    float: right;
+    padding: 2.5%;
+}
+
+.moreInfoBlock p {
+    font-size: 15px;
+}
+
+.moreInfoBlock h5 {
+    display: inline-block;
+    border-bottom:1px solid var(--secondary);
+    padding-bottom: 10px;
+}
+
+.moreInfoBlock .infoBlockHolder {
+    margin: 10px auto;
+    /* width: 50%; */
+    width: 100px;
+    height: 100px;
+}
+
+.moreInfoBlock img {
+    width: 100%;
+}
+
+.finalize {
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+.finalize p {
+    font-size: 30px;
+    color: rgb(136, 133, 133);
+}
+
+.finalize button {
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--secondary);
+    color: #FFF;
+    transition-duration: 0.4s;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button:hover {
+    background-color: #786d57;
+}
+
+/* End of Home Page CSS */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+  
+  /* Add a background color to the button if it is clicked on , and when you move the mouse over it (hover) */
+.accordion:hover {
+    background-color: #ccc;
+}
+  
+  /* Style the accordion panel. Note: hidden by default */
+.panel, .innerPanel {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+/* Footer CSS */
+footer {
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    bottom: 0;
+    position: relative;
+    clear: both;
+}
+
+footer p {
+    padding: 10px;
+    color: #FFF;
+}
+/* End of Footer CSS */
+
+/* Start css for the video player */
+.video-player {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .video-player {
+      flex-direction: column;
+    }
+  }
+  .video-player video {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .video-thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5%; /* Adjust margin-top for better positioning on all screen sizes */
+    flex-wrap: wrap; /* Allow the thumbnails to wrap to the next line if the screen size is smaller */
+  }
+  
+  .video-thumbnails img {
+    width: 300px;
+    max-width: 100%;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #A63534;
+    margin-top: 20px; /* Adjust the margin-top for better spacing between the thumbnails */
+  }
+
+  .communityH1 {
+    text-align: center;
+    color: #004080;
+    font-weight: bold !important;
+  }
+  
+/* End css for the video player */
+
+/* articles text box */
+  .text-boxes {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .text-box {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+    max-width: 100%; /* Set the maximum width to 100% */
+    width: auto; /* Remove the fixed width */
+  }
+  
+  
+  .text-box h3 {
+    text-align: center;
+  }
+  
+  .text-box p {
+    text-align: left;
+    word-spacing: normal;
+    overflow-wrap: break-word;
+  }
+  
+  
+  
+  .text-box a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .text-box a:hover {
+    text-decoration: underline;
+  }
+/* end of articles text box */
+
+  /* contact page css */
+  .contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    color: #A63534;
+    font-size: 40px;
+}
+
+.contact-left-title hr{
+    border: none !important;
+    width: 120px !important;
+    height: 5px !important;
+    background-color: #0000FF;
+    border-radius: 10px !important;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px !important;
+    border: none;
+    outline: none !important;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #0000FF;
+    border-radius: 50px !important;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px !important;
+}
+
+.contact-input:focus{
+    border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder{
+    font-weight: 500;
+    color: #a9a9a9;
+}
+
+.contact-left button{
+  display: flex !important;
+  align-items: center !important;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg,#ff994f,#fa6d86);
+  cursor: pointer;
+}
+
+.contact-left button img{
+    height: 15px;
+}
+
+.contact-right img{
+    width: 500px;
+}
+/* end of contact page css */
