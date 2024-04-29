@@ -369,8 +369,10 @@ footer p {
   }
 /* End css for the video player */
 
+/* articles text box */
   .text-boxes {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: flex-start;
     margin-top: 20px;
@@ -382,7 +384,7 @@ footer p {
     border-radius: 5px;
     padding: 10px;
     margin: 0 10px;
-    width: 300px;
+    width: 350px;
   }
   
   .text-box h3 {
@@ -390,9 +392,12 @@ footer p {
   }
   
   .text-box p {
-    text-align: justify;
+    text-align: left;
     word-spacing: normal;
+    overflow-wrap: break-word;
   }
+  
+  
   
   .text-box a {
     text-decoration: none;
@@ -402,6 +407,7 @@ footer p {
   .text-box a:hover {
     text-decoration: underline;
   }
+/* end of articles text box */
 
   /* contact page css */
   .contact-container{
